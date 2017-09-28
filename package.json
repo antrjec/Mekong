@@ -1,0 +1,35 @@
+{
+    "name": "com.example.helloworld",
+    "version": "1.0.0",
+    "displayName": "MeKongManagement",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-crosswalk-webview": {
+                "XWALK_VERSION": "23+",
+                "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+                "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+                "XWALK_MODE": "embedded",
+                "XWALK_MULTIPLEAPK": "true"
+            },
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "dependencies": {
+        "angular": "^1.6.5",
+        "angular-animate": "^1.6.5",
+        "angular-aria": "^1.6.5",
+        "angular-material": "^1.1.4",
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "~4.4.0",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-crosswalk-webview": "git+https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git",
+        "cordova-plugin-device": "^1.1.6",
+        "cordova-plugin-geolocation": "^2.4.3",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-whitelist": "^1.3.2"
+    }
+}
